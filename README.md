@@ -1,21 +1,17 @@
-# LearnerOnline
+# Learner Online
 
 Dashboard and Admin portal for Learner Management & Online Learning application
 
-Developed by Lilupa Karu
 
-`LearnerOnline` provides the following features:
+`LearnerOnline` uses following frameworks:
 
-- Allows you to painlessly update the seed tasks of your already existing project.
-- Ready to go, statically typed build system using gulp for working with TypeScript.
-- Production and development builds.
-- Ahead-of-Time compilation support.
-- Sample unit tests with Jasmine and Karma including code coverage via istanbul.
-- End-to-end tests with Protractor.
-- Development server with Livereload.
-- Following the best practices for your application’s structure.
-- Manager of your type definitions using @types.
-- Has autoprefixer and css-lint support.
+- Angular 2
+- TypeScripts
+- NodeJS and npm
+- Gulp
+- Karma test specs
+- Protractor for e2e testing
+- Livereload dev server
 
 ## How to start
 
