@@ -19,6 +19,11 @@ import {TopNavComponent} from '../shared/index';
 import {SidebarComponent} from '../shared/index';
 
 import { AssessmentsModule } from './assessments/assessments.module';
+import { ToolboxModule } from './toolbox/toolbox.module';
+import { AdministrationModule } from './administration/administration.module';
+import { EducatorsModule } from './educators/educators.module';
+import { GroupsModule } from './groups/groups.module';
+import { LearnersModule } from './learners/learners.module';
 
 @NgModule({
     imports: [
@@ -34,7 +39,12 @@ import { AssessmentsModule } from './assessments/assessments.module';
     	BSComponentModule,
         BSElementModule,
         BlankPageModule,
-        AssessmentsModule
+        AssessmentsModule,
+        ToolboxModule,
+        AdministrationModule,
+        EducatorsModule,
+        GroupsModule,
+        LearnersModule
     ],
     declarations: [DashboardComponent, TopNavComponent, SidebarComponent],
     exports: [DashboardComponent, TopNavComponent, SidebarComponent]

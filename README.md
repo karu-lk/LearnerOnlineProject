@@ -2,7 +2,7 @@
 
 Dashboard and Admin portal for Learner Management & Online Learning application
 
-Developed by Lilupa Karu XYZ
+Developed by Lilupa Karu
 
 `LearnerOnline` provides the following features:
 

@@ -10,6 +10,11 @@ import { BSComponentRoutes } from './bs-component/index';
 import { BSElementRoutes } from './bs-element/index';
 
 import { AssessmentsRoutes } from './assessments/index';
+import { AdministrationRoutes } from './administration/index';
+import { EducatorsRoutes } from './educators/index';
+import { GroupsRoutes } from './groups/index';
+import { LearnersRoutes } from './learners/index';
+import { ToolboxRoutes } from './toolbox/index';
 
 import { DashboardComponent } from './index';
 
@@ -26,7 +31,12 @@ export const DashboardRoutes: Route[] = [
 			...AssessmentsRoutes,
 			...FormRoutes,
 			...GridRoutes,
-			...BSElementRoutes
+			...BSElementRoutes,
+			...AdministrationRoutes,
+			...EducatorsRoutes,
+			...GroupsRoutes,
+			...LearnersRoutes,
+			...ToolboxRoutes
 		]
 	}
 ];
