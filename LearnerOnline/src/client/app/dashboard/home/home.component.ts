@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import { HomePageService } from '../../services/home/homePageService';
+import { HomePage } from '../../dashboard/home/home.model';
+
 /**
 *	This class represents the lazy loaded HomeComponent.
 */
@@ -17,7 +20,7 @@ export class TimelineComponent { }
 	selector: 'chat-cmp',
 	templateUrl: 'chat.html'
 })
-export class ChatComponent {}
+export class ChatComponent { }
 
 @Component({
 	moduleId: module.id,
@@ -29,10 +32,12 @@ export class NotificationComponent { }
 @Component({
 	moduleId: module.id,
 	selector: 'home-cmp',
-	templateUrl: 'home.component.html'
+	templateUrl: 'home.component.html',
+	providers: [HomePageService]
 })
 
 export class HomeComponent {
+	homePage: HomePage[] = [];
 	/* Carousel Variable */
 	myInterval: number = 5000;
 	index: number = 0;
@@ -45,24 +50,24 @@ export class HomeComponent {
 	];
 	/* END */
 	/* Alert component */
-	public alerts:Array<Object> = [
-	   {
-	     type: 'info',
-	     msg: 'You have no current online assessments'
-	   },
-	   {
-	     type: 'success',
-	     msg: 'Hi, this is another test notification',
-	     closable: true
-	   }
-	 ];
+	public alerts: Array<Object> = [
+		{
+			type: 'info',
+			msg: 'You have no current online assessments'
+		},
+		{
+			type: 'success',
+			msg: 'Hi, this is another test notification',
+			closable: true
+		}
+	];
 
-	 public closeAlert(i:number):void {
-	   this.alerts.splice(i, 1);
-	 }
+	public closeAlert(i: number): void {
+		this.alerts.splice(i, 1);
+	}
 	/* END*/
 
-	constructor() {
+	constructor(private _homePageService: HomePageService) {
 		for (let i = 0; i < 4; i++) {
 			this.addSlide();
 		}
@@ -78,4 +83,12 @@ export class HomeComponent {
 		});
 	}
 	/* END */
+
+	getHomePageCounts() {
+		this._homePageService
+			.getAll()
+			.subscribe(
+			p => this.homePage = p)
+		console.info(this.homePage);
+	}
 }
