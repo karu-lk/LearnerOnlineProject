@@ -1,13 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{72C61B6B-8EF9-4FAC-8D2B-59BF8096557F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DF510DE-D7FA-4EEF-96E2-8E1678EAAAB0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnerOnlineAPI", "src\LearnerOnlineAPI\LearnerOnlineAPI.csproj", "{890E16AB-E83D-428B-AC24-803A7F90D1AA}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LearnerOnlineAPI", "src\LearnerOnlineAPI\LearnerOnlineAPI.xproj", "{890E16AB-E83D-428B-AC24-803A7F90D1AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnerOnlineDB", "src\LearnerOnlineDB\LearnerOnlineDB.csproj", "{1003D7A9-84DE-4A60-89AD-482DD2098937}"
 EndProject

@@ -1,0 +1,9 @@
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineAPI\bin\Debug\netcoreapp1.0\LearnerOnlineAPI.deps.json
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineAPI\bin\Debug\netcoreapp1.0\LearnerOnlineAPI.runtimeconfig.json
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineAPI\bin\Debug\netcoreapp1.0\LearnerOnlineAPI.runtimeconfig.dev.json
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineAPI\bin\Debug\netcoreapp1.0\LearnerOnlineAPI.dll
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineAPI\bin\Debug\netcoreapp1.0\LearnerOnlineAPI.pdb
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineAPI\obj\Debug\netcoreapp1.0\LearnerOnlineAPI.csprojResolveAssemblyReference.cache
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineAPI\obj\Debug\netcoreapp1.0\LearnerOnlineAPI.AssemblyInfo.cs
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineAPI\obj\Debug\netcoreapp1.0\LearnerOnlineAPI.dll
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineAPI\obj\Debug\netcoreapp1.0\LearnerOnlineAPI.pdb

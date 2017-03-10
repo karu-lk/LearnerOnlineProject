@@ -1,0 +1,5 @@
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineDB\bin\Debug\LearnerOnlineDB.dll
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineDB\bin\Debug\LearnerOnlineDB.pdb
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineDB\obj\Debug\LearnerOnlineDB.csprojResolveAssemblyReference.cache
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineDB\obj\Debug\LearnerOnlineDB.dll
+C:\LILUPA\GitBasket\LearnerOnlineProject\LearnerOnlineService\src\LearnerOnlineDB\obj\Debug\LearnerOnlineDB.pdb
