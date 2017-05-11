@@ -8,6 +8,7 @@ Dashboard and Admin portal for Learner Management & Online Learning application
 - Angular 2
 - TypeScripts
 - NodeJS and npm
+- Webpack
 - Gulp
 - Karma test specs
 - Protractor for e2e testing
